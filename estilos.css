@@ -1,0 +1,247 @@
+/*reseteo de pagina*/
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*asignamos color de fondo*/
+body {
+  background-color: WhiteSmoke;
+}
+
+/*Modificaciones de menu de navegacion*/
+div#menu{
+  background-color: Khaki;
+  width: auto;
+  height: 200px;
+}
+
+div#menuNavegacion{
+  /*background-color: grey;*/
+  width: 300px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: 200px;
+}
+
+/*Inicio de Modificaciones de navegacion*/
+nav{
+  /*background-color: white;*/
+  font-size: 20px;
+  padding: 50px 0px 0px 0px;
+}
+
+/*Modificamos formato orizontal*/
+ul.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Modificamos tipografia de primeros a*/
+ul.menu-horizontal > li > a{
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: rgba(128, 0, 0,.5)
+}
+
+/*Modificacion de icono de hamburguesa*/
+img#hamburguesa{
+  width: 100px;
+  height: 50px;
+}
+
+/*Hover del primeros li*/
+ul.menu-horizontal > li:hover{
+  background-color: red;
+}
+
+/*Modificamos  vertical*/
+ul.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+}
+
+/*Hover de los li segundo a*/
+ul.menu-horizontal li:hover ul.menu-vertical{
+  display: block;
+}
+
+/*Hover de los segundos li*/
+ul.menu-vertical li:hover{
+  background-color: red;
+}
+
+/*modificacion de los segundos a*/
+ul.menu-vertical li a{
+  display: block;
+  color:white;
+  padding: 15px;
+  text-decoration: none;
+}
+/*Fin de Modificaciones de navegacion*/
+
+
+/*Modificaciones y posicion del contenedor del logo*/
+div#logo{
+  /*background-color: black;*/
+  width: 300px;
+  height: 200px;
+  margin: -200px auto;
+  /*padding: 50px;*/
+}
+
+/*Redimencion del logo*/
+img#imagenLogo{
+  width: 300px;
+  height: 200px;
+}
+
+/*Inicio de Modificaciones de redes sociales*/
+div#redesSociales{
+  /*background-color: White;*/
+  padding: 30px 0px 0px 0px;
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin: 0px 200px 0px 0px;
+  text-align: center;
+}
+
+img#wa{
+  width: 150px;
+  height: 70px;
+  margin: -20px 0px 0px 0px;
+}
+
+img#fe{
+  width: 150px;
+  height: 100px;
+  margin: -30px 0px 0px 0px;
+}
+
+/*Modificamos formato orizontal*/
+ul.horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Modificamos tipografia de primeros a*/
+ul.horizontal > li > a{
+  display: block;
+  text-decoration: none;
+}
+
+/*Modificamos  vertical*/
+ul.vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 250px;
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+}
+
+/*Hover de los li segundo a*/
+ul.horizontal li:hover ul.vertical{
+  display: block;
+}
+
+/*modificacion de los segundos a*/
+ul.vertical li:hover{
+  background-color: red;
+}
+
+/*modificacion de los segundos a*/
+ul.vertical li a{
+  display: block;
+  color:white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+/*Fin de Modificaciones de redes sociales*/
+
+/*Modificaciones del contenor de bienvenida o contenido*/
+div#bienvenida{
+  /*background-color:White;*/
+  width: auto;
+  height: 1000px;
+  text-align: center;
+}
+
+/*Modificacion de titulo*/
+h2#Titulo{
+  padding: 30px 0px 0px 0px;
+  font-size: 35px;
+  color: Maroon;
+}
+
+/*Modificaciones de los parrafos del contenido*/
+p.parrafos{
+  font-size: 25px;
+  /*text-align: justify;*/
+  /*padding: 0px 0px 0px 50px;*/
+
+}
+
+/*Modificacion de titulo*/
+h2#fin{
+  color: Maroon;
+  font-size: 30px;
+}
+
+/*Modificacion contenedor de foto*/
+div#foto{
+  /*background-color: black;*/
+  width: 700px;
+  height: 500px;
+  margin: auto;
+}
+/*Modificacion pie de imagen*/
+p.pieImagen{
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/*Modificacion letra de horarios*/
+div#horario{
+  /*background-color: grey;*/
+  width: 350px;
+  height: 150px;
+  margin-top: -450px;
+  margin-left: 100px;
+  margin-right: 1500px;
+  float: left;
+
+}
+
+/*Modificacion contenedor de hubicacion*/
+div#hubicacion{
+  /*background-color: black;*/
+  width: 350px;
+  height: 150px;
+  float: right;
+  margin: -450px 100px 0px 50px;
+}
+
+/*Modificacion pie de pagina*/
+div#piePagina{
+  background-color: SteelBlue;
+  height:200px;
+  width: auto;
+  text-align: center;
+}
+
+/*Modificacion de texto de pie de pagina*/
+p.pie{
+  padding: 20px 0px 0px 0px;
+  font-size: 30px;
+  color: White;
+}

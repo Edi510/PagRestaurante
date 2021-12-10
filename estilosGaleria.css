@@ -1,0 +1,118 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-image: url(img/fondo3.jpg);
+  background-size: auto;
+}
+
+
+/*Modificador de contenedor encabezado*/
+div#encabezado{
+  background: DodgerBlue;
+  width: auto;
+  height: 200px;
+}
+
+/*Modificacion de h1 de encabezado*/
+h1{
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  padding: 50px 0px 0px 0px;
+}
+
+div#menuNavegacion{
+  /*background-color: grey;*/
+  width: 300px;
+  height: 100px;
+  margin-top: -80px;
+  float: left;
+  margin-left: 200px;
+}
+
+/*Inicio de Modificaciones de navegacion*/
+nav{
+  /*background-color: white;*/
+  padding: 10px 0px 0px 0px;
+  font-size: 30px;
+}
+
+/*Modificamos formato orizontal*/
+ul.menu-horizontal{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Modificamos tipografia de primeros a*/
+ul.menu-horizontal > li > a{
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: rgb(128, 0, 0)
+}
+
+/*Modificacion de icono de hamburguesa*/
+img#hamburguesa{
+  width: 100px;
+  height: 50px;
+  padding: 10px 0px 0px 0px;
+}
+
+/*Hover del primeros li*/
+ul.menu-horizontal > li:hover{
+  background-color: red;
+}
+
+/*Modificamos  vertical*/
+ul.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+}
+
+/*Hover de los li segundo a*/
+ul.menu-horizontal li:hover ul.menu-vertical{
+  display: block;
+}
+
+/*Hover de los segundos li*/
+ul.menu-vertical li:hover{
+  background-color: red;
+}
+
+/*modificacion de los segundos a*/
+ul.menu-vertical li a{
+  display: block;
+  color:white;
+  padding: 15px;
+  text-decoration: none;
+}
+
+div#galeria{
+  /*background-color: white;*/
+  width: 1800px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+img.foto{
+  height: 300px;
+  width: 500px;
+  transition: all 300ms;
+}
+
+img.foto:hover{
+  transform: scale(1.55);
+  cursor: pointer;
+}
